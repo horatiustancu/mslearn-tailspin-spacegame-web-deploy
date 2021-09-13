@@ -121,6 +121,7 @@ stages:
     environment: staging
     variables:
     - group: 'Release'
+      jmeterVersion: '5.4.1'
     strategy:
       runOnce:
         deploy:
